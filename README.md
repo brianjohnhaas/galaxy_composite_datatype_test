@@ -2,9 +2,11 @@
 
 This is intended to be a small example to test the use of composite data types in Galaxy.  The tool in this case involves running a perl script 'composite_datatype_test.runner.pl', which writes three files:
 
+```
 test_file_1.txt
 test_file_2.txt
 test_file_3.txt
+```
 
 which are intended to be incorporated into Galaxy as a composite data type of format 'cdt'.
 
