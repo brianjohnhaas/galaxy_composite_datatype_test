@@ -6,8 +6,9 @@ This is intended to be a small example to test the use of composite data types i
 
 - Edit GALAXY_HOME/config/datatypes_conf.xml  to register the data type:
 
+```
     <datatype extension="cdt" type="galaxy.datatypes.CompositeDataTypeTest:CompositeDataTypeTest" mimetype="text/html" display_in_upload="True" />
-
+```
 
 
 - Place the 'CompositeDataTypeTest.py' file at GALAXY_HOME/lib/galaxy/datatypes/
@@ -23,9 +24,10 @@ This is intended to be a small example to test the use of composite data types i
    
    and then edit 'GALAXY_HOME/config/tool_conf.xml'  to contain:
    
+```
         <section id='test_CDT' name='test_CDT'>
            <tool file='test_CDT/composite_datatype_test.xml' />
         </section>
-
+```
 
 - Fire up galaxy and give it a whirl.
